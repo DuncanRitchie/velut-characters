@@ -1,7 +1,7 @@
 const charsElement = document.getElementById("characters");
 
 const phoneticData = `
-Here is an example.
+Replace this text with the text you want to get the distinct characters from.
 `;
 
 const removeDuplicateChars = (string) => {

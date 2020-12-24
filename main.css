@@ -2,25 +2,18 @@
     border: 0.15rem solid var(--colour6);
     margin-left: auto;
     margin-right: auto;
-    padding: 0.5em;
+    padding: 1em;
+    word-wrap: break-word;
 }
 
-@media (min-width: 30rem) {
-    main {
-        display: grid;
-        grid-template-areas: "title title" "list about"
-    }
-    
-    h1 {
-        grid-area: title;
-    }
-    
-    #characters {
-        grid-area: list;
-    }
+main ul {
+    padding-left: 0.25rem;
+}
 
-    section {
-        grid-area: about;
-        margin-left: 1.5em;
-    }
+main li {
+    list-style: disc inside;
+}
+
+main li + li {
+    margin-top: 0.5rem;
 }

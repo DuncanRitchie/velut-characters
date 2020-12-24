@@ -1,0 +1,26 @@
+#characters {
+    border: 0.15rem solid var(--colour6);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em;
+}
+
+@media (min-width: 30rem) {
+    main {
+        display: grid;
+        grid-template-areas: "title title" "list about"
+    }
+    
+    h1 {
+        grid-area: title;
+    }
+    
+    #characters {
+        grid-area: list;
+    }
+
+    section {
+        grid-area: about;
+        margin-left: 1.5em;
+    }
+}

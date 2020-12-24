@@ -17,4 +17,13 @@ const removeDuplicateChars = (string) => {
     return charsString;
 };
 
-charsElement.textContent = removeDuplicateChars(phoneticData);
+const sortString = (string) => {
+    let charsArray = [];
+    for (let i = 0; i < string.length; i++) {
+        charsArray.push(string[i]);
+    }
+    charsArray.sort();
+    return charsArray.join("");
+};
+
+charsElement.textContent = sortString(removeDuplicateChars(phoneticData));

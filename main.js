@@ -26,4 +26,8 @@ const sortString = (string) => {
     return charsArray.join("");
 };
 
-charsElement.textContent = sortString(removeDuplicateChars(phoneticData));
+const updateDomElement = () => {
+    charsElement.textContent = sortString(removeDuplicateChars(phoneticData));
+}
+
+updateDomElement();

@@ -1,4 +1,4 @@
-const charsElement = document.getElementById("characters");
+const charsElement = document.getElementById("characters-phonetic");
 
 const phoneticData = `
 Replace this text with the text you want to get the distinct characters from.

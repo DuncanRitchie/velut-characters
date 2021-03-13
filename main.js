@@ -1,6 +1,11 @@
-const charsElement = document.getElementById("characters-phonetic");
+const phoneticElement = document.getElementById("characters-phonetic");
+const allElement = document.getElementById("characters-all");
 
 const phoneticData = `
+Replace this text with the text you want to get the distinct characters from.
+`;
+
+const allCharsData = `
 Replace this text with the text you want to get the distinct characters from.
 `;
 
@@ -27,7 +32,8 @@ const sortString = (string) => {
 };
 
 const updateDomElement = () => {
-    charsElement.textContent = sortString(removeDuplicateChars(phoneticData));
+    phoneticElement.textContent = sortString(removeDuplicateChars(phoneticData));
+    allElement.textContent = sortString(removeDuplicateChars(allCharsData));
 }
 
 updateDomElement();

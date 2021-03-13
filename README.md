@@ -1,7 +1,7 @@
-# Characters in velut’s Phonetic fields.
+# Characters in used on velut
 https://velut-characters.netlify.app/
 
-A webpage that lists, and gives a very brief explanation of, the characters that my Latin rhyming dictionary ([velut](https://github.com/DuncanRitchie/velut)) uses internally to represent the different sounds in Latin words.
+A webpage that lists, and gives a very brief explanation of, the characters that my Latin rhyming dictionary ([velut](https://github.com/DuncanRitchie/velut)) uses internally to represent the different sounds in Latin words. Also lists all characters used on the website (probably).
 
 The JavaScript file, if the reference to it in the HTML were to be uncommented, would update the list of characters to be the list of distinct characters in the constants `phoneticData` and `allCharsData`.
 

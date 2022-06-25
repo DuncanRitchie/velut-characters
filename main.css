@@ -23,3 +23,7 @@ main li {
 main li + li {
     margin-top: 0.5rem;
 }
+
+samp {
+    font-size: 0.9em;
+}
